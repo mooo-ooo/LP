@@ -852,11 +852,8 @@ input:focus {
 
 .homepage-scrolling {
   background-color: var(--sub-colorlight);
-  height: 7065px;
-  overflow: hidden;
-  overflow-x: hidden;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097255-iSxdfu {
@@ -867,7 +864,7 @@ input:focus {
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .hero-5wqvWQ {
@@ -877,7 +874,7 @@ input:focus {
   background-size: cover;
   height: 888px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097258-fH68vY {
@@ -886,10 +883,10 @@ input:focus {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  left: 300px;
+  /* left: 300px; */
   position: relative;
   top: 250px;
-  width: 841px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097257-VclwSc {
@@ -1062,7 +1059,7 @@ input:focus {
   background-color: transparent;
   height: 96px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .rectangle-1532-iLdewx {
@@ -1071,7 +1068,7 @@ input:focus {
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .group-2477-iLdewx {
@@ -1302,26 +1299,27 @@ input:focus {
   background-color: transparent;
   height: 639px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .bg-p5CK6A {
   background-color: var(--main-colorblue);
   height: 294px;
   top: 345px;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097283-p5CK6A {
   align-items: center;
-  background-color: transparent;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 60px;
-  justify-content: center;
-  left: 165px;
-  position: absolute;
-  top: 100px;
+    background-color: transparent;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    /* left: 165px; */
+    width: 100%;
+    position: absolute;
+    top: 100px;
 }
 
 .homepage-scrolling .section-heading-PZZUbQ {
@@ -1428,6 +1426,7 @@ input:focus {
   gap: 8px;
   padding: 120px;
   position: relative;
+  width: 100%;
 }
 
 .homepage-scrolling .ellipse-477-RUZwKx {
@@ -1443,7 +1442,7 @@ input:focus {
   background-color: transparent;
   height: 1033px;
   position: relative;
-  width: 1200px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097268-5AHL7s {
@@ -1455,12 +1454,13 @@ input:focus {
   left: 0px;
   position: relative;
   top: 0px;
+  width: 100%;
 }
 
 .homepage-scrolling .title-YdTrKm {
   flex-direction: column;
   gap: 20px;
-  width: 880px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097267-ljHfBF {
@@ -1497,7 +1497,7 @@ input:focus {
   margin-right: -11.28px;
   position: relative;
   text-align: center;
-  width: 902.5640869140625px;
+  width: 100%;
 }
 
 .homepage-scrolling .with-our-vision-of-p-ljHfBF {
@@ -1518,7 +1518,7 @@ input:focus {
   flex: 0 0 auto;
   justify-content: space-between;
   position: relative;
-  width: 1200px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-2537-32Xvrb {
@@ -1796,7 +1796,7 @@ input:focus {
   justify-content: space-around;
   padding: 80px 120px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097300-GsEP8v {
@@ -1805,7 +1805,7 @@ input:focus {
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 1200px;
+  width: 100%;
 }
 
 .homepage-scrolling .group-2570-gcHQxk {
@@ -2271,7 +2271,8 @@ input:focus {
   background-color: var(--base-colorwhite);
   height: 846px;
   position: relative;
-  width: 1440px;
+  width: 100%;
+  overflow-x: clip;
 }
 
 .homepage-scrolling .frame-204-JinAAZ {
@@ -2510,7 +2511,7 @@ input:focus {
   background-color: var(--main-colororange);
   height: 474px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-208-j7Da54 {
@@ -2587,7 +2588,7 @@ input:focus {
   height: 877px;
   margin-right: -8.00px;
   position: relative;
-  width: 1448px;
+  width: 100%;
 }
 
 .homepage-scrolling .article-xXG9S6 {
@@ -2600,11 +2601,12 @@ input:focus {
   padding: 100px 120px;
   position: relative;
   top: 0px;
+  width: 100%;
 }
 
 .homepage-scrolling .title-6BxsXW {
   justify-content: space-between;
-  width: 1200px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-42-reMLWG {
@@ -2679,6 +2681,7 @@ input:focus {
   flex: 0 0 auto;
   gap: 24px;
   position: relative;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-43-22hy7e {
@@ -2707,9 +2710,8 @@ input:focus {
 
 .homepage-scrolling .footer-5wqvWQ {
   background-color: transparent;
-  height: 522px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .footer-zlmStk {
@@ -2720,6 +2722,7 @@ input:focus {
   left: 0px;
   position: relative;
   top: 0px;
+  width: 100%;
 }
 
 .homepage-scrolling .main-footer-2Singj {
@@ -2732,6 +2735,7 @@ input:focus {
   justify-content: center;
   padding: 80px 0px;
   position: relative;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097294-3Otc3O {
@@ -2742,7 +2746,7 @@ input:focus {
   justify-content: space-between;
   padding: 0px 120px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-48097289-B6GKgF {
@@ -3023,7 +3027,7 @@ input:focus {
   justify-content: space-between;
   padding: 24px 120px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .homepage-scrolling .x2024-company-brand-u-wxpMfg {
@@ -3107,12 +3111,11 @@ input:focus {
   border-left-style: none;
   border-right-style: none;
   border-top-style: none;
-  box-shadow: 0px 4px 16px 3px #0e19470d;
   height: 100px;
   left: 0px;
   position: fixed;
   top: 0px;
-  width: 100px;
+  width: 100%;
 }
 
 .homepage-scrolling .frame-1351-GqFtBP {
@@ -3120,10 +3123,11 @@ input:focus {
   background-color: transparent;
   display: flex;
   justify-content: space-between;
-  left: 120px;
+  /* left: 120px; */
   position: relative;
   top: 25px;
-  width: 1200px;
+  padding: 0 120px;
+  width: 100%;
 }
 
 .homepage-scrolling .logo-bgz919 {
